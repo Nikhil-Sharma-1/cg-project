@@ -75,7 +75,7 @@ const Edit = () => {
     } = inpval;
 
     const res2 = await fetch(`/updateuser/${id}`, {
-      method: "PATCH",
+      method: "PUT",
       headers: {
         "Content-Type": "application/json",
       },
